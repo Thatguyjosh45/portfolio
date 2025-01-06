@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh; /* Ensure body takes full height of the viewport */
+    justify-content: space-between; /* Distribute content evenly from top to bottom */
+}
+
+ul {
+    list-style: none;
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+ul a {
+    text-decoration: none;
+    color: black;
+    margin: 0 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+ul a:hover {
+    color: #007bff; /* Optional hover effect */
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #f4f4f4; /* Optional background */
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 50px; /* Adjust this value for more vertical space */
+    padding: 20px;
+    flex-grow: 1; /* Allow the container to take up remaining space */
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 30px;
+}
+
+.text {
+    flex: 1;
+    text-align: left;
+}
+
+h1 {
+    margin: 10px 0;
+    font-size: 25px; /* Smaller font size than h2 */
+}
+
+h2 {
+    margin: 10px 0;
+    font-size: 37px; /* Larger font size for h2 */
+}
+
+h3 {
+    margin: 0; /* Remove all margin */
+    padding: 0; /* Remove any padding */
+    white-space: pre;
+    line-height: 1.2; /* Adjust line height for better spacing */
+    font-size: 30px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    margin: 10px 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
