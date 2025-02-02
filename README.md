@@ -1,1 +1,1 @@
-Just my portfolio website to display my work and projects
+just a simple website that i use to display my work
